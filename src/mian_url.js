@@ -1,6 +1,5 @@
 export const apiService = {};
 
-
 //新接口URL测试环境
 apiService.testBaseUrl = 'https://test.cityworks.cn/baoan';
 apiService.testNewUrl = 'https://test.cityworks.cn';
