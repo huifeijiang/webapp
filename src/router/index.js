@@ -40,7 +40,7 @@ import handleEventDetail from '../components/handleEventDetail/handleEventDetail
 import regulationList from '../components/regulationList/regulationList';
 import regulationEvent from '../components/regulationEvent/regulationEvent';
 Vue.use(Router)
-    //数据统计
+//数据统计
 import statistics from '../components/statistics/statistics';
 //油烟上报
 import lampblackshangbao from '../components/Lampblackreport/lampblackshangbao'
