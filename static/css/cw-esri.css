@@ -1,0 +1,8 @@
+/*esri css重写*/
+div.esriPopup .titleButton.maximize{
+  display: none;
+}
+
+div.esriPopup .titleButton.close{
+  display: none;
+}

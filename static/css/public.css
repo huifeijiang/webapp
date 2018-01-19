@@ -1,0 +1,530 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: #5A5E6F
+}
+*{margin: 0;padding: 0}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.cw-tabs .mu-flat-button-label{
+    font-size: 16px;
+}
+.cw-tabs .demo-flat-button{
+    height: 45px;
+}
+/* 这是针对缺省样式 (必须的) */
+.alert-head,.river-head,.newss .mu-appbar{
+    background: #4baaf4 !important
+}
+.table-list-wrapa .table-list{
+    width: auto
+}
+::-webkit-scrollbar-track {
+    // background-color: rgba(0, 0, 0, 0);
+}
+.mu-linear-progress-determinate{
+    background: #4BAAF4 100%
+}
+.mu-linear-progress{
+    background: #E6E9F4 100%
+}
+/* 滚动条的滑轨背景颜色 */
+
+::-webkit-scrollbar-thumb {
+
+}
+
+
+/* 滑块颜色 */
+
+.sss .mu-radio-icon {
+    margin-right: 3px !important;
+}
+
+.sss .mu-radio {
+    margin-right: 10px;
+}
+
+.sss .mu-radio-label {
+    font-size: 12px;
+}
+
+.faqicontnt .mu-text-field-line.disabled {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.mu-item-title {
+    color: #5A5E6F
+}
+
+.time .mu-text-field-line.disabled {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.newss .mint-swipe-indicators {
+    right: 10px;
+    left: auto;
+    transform: inherit;
+}
+.spanStyle span{
+    overflow: initial !important;
+    text-overflow: initial !important;
+    white-space: inherit !important;
+}
+.penqi1 .flex-grow{
+  float:left;
+  margin:3px 120px 0 0
+
+}
+textarea{
+    border:none
+}
+
+.penqi1 .flex-grow {
+    float: left;
+    margin: 3px 120px 0 0
+}
+
+.tuli{
+  border-radius: 0 0 4px 4px !important
+}
+
+.alert-head{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 56px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  z-index: 50;
+  background: linear-gradient(left, #30aafd, #2eccfc);
+  background: -webkit-linear-gradient(left, #30aafd, #2eccfc);
+  background: -o-linear-gradient(left, #30aafd, #2eccfc);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .117647), 0 1px 4px rgba(0, 0, 0, .117647);
+  color: #fff;
+}
+.newss .mint-swipe-indicator.is-active {
+    background: #fff;
+    opacity: 1;
+}
+
+.faqicontnt .mu-text-field-line.disabled {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.time .mu-text-field-line.disabled {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.aaaa .mu-checkbox-icon{
+    margin-right:5px  !important
+}
+.aaaa .mu-checkbox-label {
+    color: rgba(0,0,0,.87);
+    margin-right: 10px;
+}
+
+
+/* 滑轨两头的监听按钮颜色 */
+
+::-webkit-scrollbar-corner {
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mint-msgbox-message{
+    color:#5A5E6F;
+    font-size: 18px
+}
+
+#app-box {
+    width: 100%;
+    height: 100%;
+}
+
+.rivers-tab .mu-tab-text {
+    max-width: 40px;
+}
+.mint-msgbox{
+    border-radius: 7px;
+}
+.mint-msgbox-confirm,.mint-msgbox-cancel{
+    color:#4BAAF4 !important
+}
+
+.rivers-tab .mu-tab-link-highlight {
+    background-color: #50A2D6;
+}
+
+.river-ce-button-active {
+    background-color: #50A2D6;
+    color: #EDF0F9;
+
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../font/icomoon.eot?uvlk1g');
+    src: url('../font/icomoon.eot?uvlk1g#iefix') format('embedded-opentype'), url('../font/icomoon.ttf?uvlk1g') format('truetype'), url('../font/icomoon.woff?uvlk1g') format('woff'), url('../font/icomoon.svg?uvlk1g#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-water:before {
+    content: "\e900";
+}
+
+.lam .mu-radio-label {
+    font-size: 14px !important
+}
+
+.lam .mu-text-field-line {
+    display: none
+}
+
+.lam .mu-text-field-focus-line {
+    display: none
+}
+
+.lam .text-radio .mu-text-field-input {
+    border-bottom: 1px solid #eee;
+}
+
+.watch-alert .mu-td,
+.mu-th {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.mu-paper{
+  color: #5A5E6F
+}
+
+/*修改弹出框样式*/
+
+.f_le {
+    float: left;
+}
+
+.f_ri {
+    float: right
+}
+
+div.mu-dialog .mu-dialog-title {
+    font-size: 20px;
+}
+
+div.mu-dialog .mu-dialog-body {
+    padding: 0 20px 20px 20px;
+}
+
+div.mu-dialog .mu-flat-button {
+    min-width: 75px;
+}
+
+
+/*表格样式*/
+
+.width-10 {
+    width: 10%;
+}
+
+.width-15 {
+    width: 15%;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+.width-25 {
+    width: 25%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-35 {
+    width: 35%;
+}
+/*
+表单formText输入框样式
+*/
+.little-text{
+  width:100%!important;
+}
+.little-text .mu-text-field-content {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.little-text .mu-text-field-hint {
+    left: 0px;
+    text-align: right;
+}
+
+.little-text .mu-text-field-input {
+    text-align: right;
+   font-size:15px;
+}
+/*
+表单textarea的输入框样式
+*/
+.text-area .mu-text-field-hint {
+    left: 0px;
+}
+
+.text-area .mu-text-field-content {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.text-radio .mu-text-field {
+    width: 100%;
+}
+
+.text-radio .mu-text-field-hint {
+    left: 0;
+    text-indent: 10px;
+}
+
+.text-radio .mu-text-field-input {
+    text-indent: 10px;
+}
+
+.text-range .mu-raised-button {
+    background: #30aafd;
+    margin: 2px;
+    color: #EDF0F9;
+    min-width: 80px;
+}
+
+.range-list .mu-checkbox-ripple-wrapper {
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: 0;
+}
+
+.cw-list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@media(-webkit-min-device-pixel-ratio:1.5) {
+    .border-1px:before {
+        height: 1px;
+        content: "";
+        left: 0;
+        width: 100%;
+        border-bottom: 1px solid #EDF0F9;
+        position: absolute;
+        -webkit-transform: scaleY(0.7);
+        transform: scaleY(0.7)
+    }
+}
+
+.relative {
+    position: relative
+}
+
+@media(min-device-pixel-ratio:1.5) {
+    .border-1px:before {
+        height: 1px;
+        content: "";
+        left: 0;
+        width: 100%;
+        border-bottom: 1px solid #EDF0F9;
+        position: absolute;
+        -webkit-transform: scaleY(0.7);
+        transform: scaleY(0.7)
+    }
+}
+
+@media(-webkit-min-device-pixel-ratio:2) {
+    .border-1px:before {
+        height: 1px;
+        content: "";
+        width: 100%;
+        left: 0;
+        bottom: 0px;
+        border-bottom: 1px solid #EDF0F9;
+        position: absolute;
+        -webkit-transform: scaleY(0.5);
+        transform: scaleY(0.5)
+    }
+}
+.table-list{
+    width:auto !important
+}
+
+@media(min-device-pixel-ratio:2) {
+    .border-1px:before {
+        height: 1px;
+        content: "";
+        width: 100%;
+        left: 0;
+        bottom: 0px;
+        border-bottom: 1px solid #EDF0F9;
+        position: absolute;
+        -webkit-transform: scaleY(0.5);
+        transform: scaleY(0.5)
+    }
+}
+
+.form-wrap .event-walker {
+    z-index: 50;
+}
+
+.mu-bottom-item-active .mu-bottom-item-text,.mu-bottom-item-active .mu-bottom-item-icon{
+    color: #4BAAF4;
+}
+
+.mu-dialog-wrapper .udialog  .mu-dialog-body {
+    padding: 0;
+    border-radius: 4px;
+}
+
+#tuli .mu-appbar-title span {
+  color: #5a5e6f;
+}
+
+.keep-dis .mu-text-field-line {
+    background-color: rgba(255, 255, 255, 0);
+}
+.keep-dis .mu-text-field-focus-line {
+    background-color: rgba(255, 255, 255, 0);
+}
+.shangbao .mu-icon {
+    color: #A8ACBC;
+}
+.left .mu-icon {
+  color: #fff;
+}
+.mitt .picker-item{
+  font-size:14px;
+}
+/*每日巡查的输入框的样式*/
+.qita .mu-text-field-content{
+  border-bottom:1px solid #eee;
+  padding-left:20px;
+}
+/*每月巡查的输入框的样式*/
+.timexieyi .mu-text-field .mu-text-field-hint{
+    width:100%;
+    text-align:right;
+    padding-right:10px;
+}
+.timexieyi.text-radio  .mu-text-field-input{
+    border-bottom:1px solid transparent;
+}
+.timexieyi .mu-text-field-content{
+    padding-bottom:0;
+}
+.timexieyi  .mu-text-field-input{
+    text-align:right;
+    padding-right:10px;
+}
+/*
+hc执法列表的加载背景色
+*/
+.mu-infinite-scroll{
+  background : #fff;
+}
+/*
+formRadio
+ */
+.form-list .mu-radio-icon{
+  margin-right:5px;
+}
+/*
+EventList的图标位置
+*/
+.eventlist .mu-item{
+  padding:8px 8px 8px 14px;
+}
+.eventlist .mu-item-right{
+  width:24px;
+}
+.eventlist .mu-item-left{
+  left:0px;
+}
+.eventlist .mu-item.show-left{
+  padding-left:28px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.eventlist .mu-item.show-right{
+  padding-right:25px;
+}
+.eventlist .mu-item-title{
+  font-size:14px;
+}
+.eventlist.shangbao .mu-item-title{
+  font-size:15px;
+}
+
+/*
+hcz专项执法事件处理
+*/
+.keep-dis .mu-text-field-content{
+  width:100%;
+}
+.keep-dis .mu-text-field-hint {
+  left:10px;
+}
+.keep-dis  .mu-text-field-help{
+  right:10px;
+}
+.checkboxes .mu-checkbox{
+  width:100%;
+}
+.checkboxes .mu-checkbox-wrapper{
+  justify-content: inherit;
+}
+/*
+企业填报弹窗
+ */
+.mu-dialog-wrapper .huanbaodialog .mu-dialog-title{
+  justify-content: center;
+  padding:10px;
+  background:rgba(239,239,239,1);
+  color:#6a6e7b;
+}
+.mu-dialog-wrapper .huanbaodialog .mu-dialog-body {
+  position:relative;
+  padding:0;
+  overflow:inherit!important;
+}

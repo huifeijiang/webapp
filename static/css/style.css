@@ -1,0 +1,496 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?hlcc8b');
+  src:  url('fonts/icomoon.eot?hlcc8b#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hlcc8b') format('truetype'),
+    url('fonts/icomoon.woff?hlcc8b') format('woff'),
+    url('fonts/icomoon.svg?hlcc8b#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Fill-1:before {
+  content: "\e900";
+  color: #a8acbc;
+}
+.icon-Group-2 .path1:before {
+  content: "\e901";
+  color: rgb(0, 0, 0);
+}
+.icon-Group-2 .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-2 .path3:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: none;
+}
+.icon-Group-2 .path4:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(75, 170, 244);
+}
+.icon-Group-2 .path5:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(75, 170, 244);
+}
+.icon-ic-back:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-ic-call .path1:before {
+  content: "\e907";
+  color: rgb(253, 248, 239);
+}
+.icon-ic-call .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 177, 24);
+}
+.icon-ic-close .path1:before {
+  content: "\e909";
+  color: rgb(236, 239, 249);
+}
+.icon-ic-close .path2:before {
+  content: "\e90a";
+  margin-left: -1.3330078125em;
+  color: none;
+}
+.icon-ic-close .path3:before {
+  content: "\e90b";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.icon-ic-close .path4:before {
+  content: "\e90c";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-homepage:before {
+  content: "\e90d";
+  color: #767985;
+}
+.icon-ic-open .path1:before {
+  content: "\e90e";
+  color: rgb(75, 170, 244);
+}
+.icon-ic-open .path2:before {
+  content: "\e90f";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.icon-ic-open .path3:before {
+  content: "\e910";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-Search:before {
+  content: "\e911";
+  color: #000;
+}
+.icon-ic-泵站 .path1:before {
+  content: "\e912";
+  color: rgb(255, 255, 255);
+}
+.icon-ic-泵站 .path2:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: none;
+}
+.icon-ic-泵站 .path3:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(83, 155, 219);
+}
+.icon-ic-泵站 .path4:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(83, 155, 219);
+}
+.icon-ic-定位 .path1:before {
+  content: "\e916";
+  color: #fff
+}
+.icon-ic-定位 .path2:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-定位 .path3:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: #fff;
+}
+.icon-ic-定位 .path4:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(75, 170, 244);
+}
+.icon-ic-个人-copy:before {
+  content: "\e91a";
+  color: #4baaf4;
+}
+.icon-ic-个人:before {
+  content: "\e91b";
+  color: #767985;
+}
+.icon-ic-勾选:before {
+  content: "\e91c";
+  color: #000;
+}
+.icon-ic-勾选h .path1:before {
+  content: "\e91d";
+  color: rgb(75, 170, 244);
+}
+.icon-ic-勾选h .path2:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-关闭-copy:before {
+  content: "\e91f";
+  color: #cacdd9;
+}
+.icon-ic-关闭 .path1:before {
+  content: "\e920";
+  color: rgb(237, 240, 249);
+}
+.icon-ic-关闭 .path2:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(172, 176, 191);
+}
+.icon-ic-关闭 .path3:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(172, 176, 191);
+}
+.icon-ic-密码:before {
+  content: "\e923";
+  color: #a2d0f3;
+}
+.icon-ic-上报 .path1:before {
+  content: "\e925";
+}
+.icon-ic-上报 .path4:before {
+  content: "上报";
+  font-size: 15px;
+  margin-left: 1.166992em;
+  color: #fff;
+  left: 27px;
+  margin-top: -40px;
+  position: absolute;
+}
+.icon-ic-上报 .path444:before {
+  content: "执法";
+  font-size: 15px;
+  margin-left: 1.166992em;
+  color: #fff;
+  left: 27px;
+  margin-top: 17px;
+  position: absolute;
+}
+.icon-ic-上报 .path2:before {
+  content: "\e926";
+  margin-left: -1.8330078125em;
+  color: rgb(75, 170, 244);
+}
+.icon-ic-上报 .path3:before {
+  content: "\e927";
+  margin-left: -1.8330078125em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-事件类型:before {
+  content: "\e924";
+  color: #4baaf4;
+}
+.icon-ic-巡查-copy:before {
+  content: "\e92e";
+  color: #4baaf4;
+}
+.icon-ic-巡查:before {
+  content: "\e92f";
+  color: #767985;
+}
+.icon-ic-用户:before {
+  content: "\e930";
+  color: #a2d0f3;
+}
+.icon-Oval-7:before {
+  content: "\e932";
+  color: #fff;
+}
+.icon-Shape-Copy-2:before {
+  content: "\e933";
+  color: #4baaf4;
+}
+.icon-ic-氨氮:before {
+  content: "\e934";
+  color: #acb0bf;
+}
+.icon-ic-电:before {
+  content: "\e939";
+  color: #acb0bf;
+}
+.icon-ic-电话 .path1:before {
+  content: "\e93a";
+  color: rgb(149, 120, 245);
+}
+.icon-ic-电话 .path2:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-定位:before {
+  content: "\e93d";
+  color: #a8acbc;
+}
+.icon-ic-定位h:before {
+  content: "\e93e";
+  color: #4baaf4;
+}
+.icon-ic-氟:before {
+  content: "\e940";
+  color: #acb0bf;
+}
+.icon-关闭:before {
+  content: "\e941";
+  color: #fff;
+}
+.icon-ic-合并形状:before {
+  content: "\e942";
+  color: #a8acbc;
+}
+.icon-ic-河流 .path1:before {
+  content: "\e943";
+  color: rgb(255, 180, 0);
+}
+.icon-ic-河流 .path2:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-监测站点 .path1:before {
+  content: "\e949";
+  color: rgb(255, 255, 255);
+}
+.icon-ic-监测站点 .path2:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: none;
+}
+.icon-ic-监测站点 .path3:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(216, 94, 85);
+}
+.icon-ic-垃圾桶icon:before {
+  content: "\e94e";
+  color: #a8acbc;
+}
+.icon-ic-磷:before {
+  content: "\e94f";
+  color: #acb0bf;
+}
+.icon-ic-流速:before {
+  content: "\e950";
+  color: #acb0bf;
+}
+.icon-密码 .path1:before {
+  content: "\e951";
+  color: rgb(79, 207, 188);
+}
+.icon-密码 .path2:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-排污口 .path1:before {
+  content: "\e953";
+  color: rgb(255, 255, 255);
+}
+.icon-ic-排污口 .path2:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: none;
+}
+.icon-ic-排污口 .path3:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(107, 85, 216);
+}
+.icon-ic-排污口 .path4:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(107, 85, 216);
+}
+.icon-ic-溶解氧:before {
+  content: "\e957";
+  color: #acb0bf;
+}
+.icon-ic-涉水企业 .path1:before {
+  content: "\e958";
+  color: rgb(255, 255, 255);
+}
+.icon-ic-涉水企业 .path2:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: none;
+}
+.icon-ic-涉水企业 .path3:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: rgb(87, 211, 193);
+}
+.icon-ic-水闸 .path1:before {
+  content: "\e964";
+  color: rgb(255, 255, 255);
+}
+.icon-ic-水闸 .path2:before {
+  content: "\e965";
+  margin-left: -1em;
+  color: none;
+}
+.icon-ic-水闸 .path3:before {
+  content: "\e966";
+  margin-left: -1em;
+  color: rgb(255, 170, 0);
+}
+.icon-ic-提醒 .path1:before {
+  content: "\e967";
+  color: rgb(255, 180, 0);
+}
+.icon-ic-提醒 .path2:before {
+  content: "\e968";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-提醒 .path3:before {
+  content: "\e969";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-头像 .path1:before {
+  content: "\e96a";
+  color: rgb(255, 255, 255);
+  opacity: 0.1;
+}
+.icon-ic-头像 .path2:before {
+  content: "\e96b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-ic-头像 .path3:before {
+  content: "\e96c";
+  margin-left: -1em;
+  color: rgb(227, 244, 254);
+}
+.icon-ic-头像 .path4:before {
+  content: "\e96d";
+  margin-left: -1em;
+  color: rgb(185, 223, 246);
+}
+.icon-ic-头像 .path5:before {
+  content: "\e96e";
+  margin-left: -1em;
+  color: rgb(254, 242, 230);
+}
+.icon-ic-头像 .path6:before {
+  content: "\e96f";
+  margin-left: -1em;
+  color: rgb(152, 194, 219);
+}
+.icon-ic-头像 .path7:before {
+  content: "\e970";
+  margin-left: -1em;
+  color: rgb(255, 250, 244);
+}
+.icon-ic-头像 .path8:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(255, 250, 244);
+}
+.icon-ic-头像 .path9:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(255, 250, 244);
+}
+.icon-ic-头像 .path10:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(255, 250, 244);
+}
+.icon-ic-头像 .path11:before {
+  content: "\e974";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-ic-头像 .path12:before {
+  content: "\e975";
+  margin-left: -1em;
+  color: rgb(4, 5, 9);
+}
+.icon-ic-头像 .path13:before {
+  content: "\e976";
+  margin-left: -1em;
+  color: rgb(4, 5, 9);
+}
+.icon-ic-头像 .path14:before {
+  content: "\e977";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-头像 .path15:before {
+  content: "\e978";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-头像 .path16:before {
+  content: "\e979";
+  margin-left: -1em;
+  color: rgb(57, 57, 57);
+}
+.icon-ic-头像 .path17:before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: rgb(255, 135, 135);
+}
+.icon-ic-透明度:before {
+  content: "\e97b";
+  color: #acb0bf;
+}
+.icon-ic-椭圆形 .path1:before {
+  content: "\e97c";
+  color: rgb(152, 207, 79);
+}
+.icon-ic-椭圆形 .path2:before {
+  content: "\e97d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-形状:before {
+  content: "\e97e";
+  color: #a8acbc;
+}
+.icon-ic-氧气:before {
+  content: "\e981";
+  color: #acb0bf;
+}
