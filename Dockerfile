@@ -1,4 +1,5 @@
-FROM node:7.3.0-alpine
+#FROM node:7.3.0-alpine
+FROM mhart/alpine-node
 
 # Create app directory
 WORKDIR /usr/src/baoan_water_app
