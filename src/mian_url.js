@@ -12,7 +12,6 @@ apiService.prodNewUrl = 'http://10.99.34.8';
 apiService.devBaseUrl = '/refactor/baoan';
 apiService.devNewUrl = '/refactor';
 
-
 apiService.proc = process.env.NODE_ENV; //开发
 
 let urlArray = (function(urlType) {
